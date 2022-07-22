@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Responsive resume cv</title>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Gps</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="bx bxs-home" nav__icon> </i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link  active-link">
+                            <i class='bx bxs-user-circle' nav__icon></i> Profile
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link active-link">
+                            <i class='bx bxs-book' nav__icon></i>Education
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link active-link">
+                            <i class='bx bxs-receipt' nav__icon></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link active-link">
+                            <i class='bx bxs-briefcase' nav__icon></i>Experience
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#certificate" class="nav__link  active-link">
+                            <i class='bx bxs-award'></i>Certificate
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#references" class="nav__link active-link active-link">
+                            <i class='bx bx-link-external' nav__icon></i>References
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt nav__icon '></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="gpsw.png.jpg" alt="" class="home__img">
+                            <h1 class="home__title">Gaurav Pratap Singh<b></b></h1>
+                            <h3 class="home__profession">Web Developer</h3>
+                            <div>
+                                <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
+                            </div>
+
+                        </div>
+                        <div class="home__address bg-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map home__icon'></i>Shivaji Boys Hostel (Kanpur University) 208024
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bxs-envelope home__icon'></i></i>gauravpratapsingh321@gmail.com
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon'></i>8192034736 & 9389879393
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                    <!-- Button to generate and download the pdf. Available for desktop. -->
+                    <i class='bx bx-download generate-pdf' title="generate PDF" id="resume-button"></i>
+                </section>
+                
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+                        <p class="profile__description">I am currently pursuing B.tech in Computer science engineering.<br> I have the ability to work in any kind of situation, responsible with their work during working hours.<br>
+                            I am also self motivated and a hard worker.
+                        </p>
+                    </section>
+
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+                    <div class="social container bd-grid">
+                        <a href="https://www.linkedin.com/in/gaurav-pratap-singh-543209226/" target="_blank"
+                            class="social__link">
+                            <i class='bx bxl-linkedin-square social__icon'></i>Linkdin
+                        </a>
+                        <a href="https://www.facebook.com/gaurav.pratap.566148/" target="_blank" class="social__link">
+                            <i class='bx bxl-facebook-circle social__icon'></i>Facebook
+                        </a>
+                        <a href="https://www.instagram.com/gaurav._gps/" target="_blank" class="social__link">
+                            <i class='bx bxl-instagram social__icon'></i>Instagram
+                        </a>
+
+                    </div>
+
+                </section>
+
+
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>HTML
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>CSS
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>c/c++
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>JAVASCRIPT
+                            </li>
+                        </ul>
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>ANGULAR
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>BOOTSTRAP
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>REACT JS
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>NODE JS
+                            </li>
+                        </ul>
+                    </div>
+
+                </section>
+            </div>
+
+            <div class="resume__right">
+                
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid ">
+                                <h3 class="education__title">High school</h3>
+                                <span class="education__studies">D.S.4 Public school</span>
+                                <span class="education__year">2006-2018</span>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid ">
+                                <h3 class="education__title">Intermediate</h3>
+                                <span class="education__studies">Aadharshila the school</span>
+                                <span class="education__year">2018-2020</span>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid ">
+                                <h3 class="education__title"> B-Tech </h3>
+                                <span class="education__studies">kanpur university</span>
+                                <span class="education__year">2021-2025</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">
+                        Experience
+                    </h2>
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Web Development</h3>
+                                <span class="experience__company"> currently | Sukhad Foundation </span>
+                                <p class="experience__description">Internships work from home.
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <!-- <span class="experience__rounder"></span> -->
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <!-- <h3 class="experience__title"></h3> -->
+                                <!-- <span class="experience__company"></span> -->
+                                <!-- <p class="experience__description"> -->
+                                </p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <!-- <span class="experience__rounder"></span> -->
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <!-- <h3 class="experience__title"></h3> -->
+                                <!-- <span class="experience__company"></span> -->
+                                <!-- <p class="experience__description"> -->
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== CERTIFICATES ==========-->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">Certificate</h2>
+                    <div class="certificate__container bd-grid">
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Certificate of Sukhad Foundation</h3>
+                            <p class="certificata__description">Certificate is given through Internshala (work from home).</p>
+<!-- 
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Certificate of hamari pahachan ngo</h3>
+                            <p class="certificata__description">Lorem ipsum dolor sit amet consectetus</p>
+
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Certificate of hamari pahachan ngo</h3>
+                            <p class="certificata__description">Lorem ipsum dolor sit amet consectetus</p>
+
+                        </div> -->
+                    </div>
+
+
+
+                </section>
+
+                <!--========== REFERENCES ==========-->
+                <section class="references section" id="references">
+                    <h2 class="section-title">References</h2>
+
+                    <div class="references__container bd-grid">
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle"></span>
+                            <h3 class="references__title">Internshala</h3>
+                            <ul class="references__contact">
+                                <li>Internshala is India's internship and training platform </li>
+                                <li>Email:university.relations@internshala.com</li>
+
+                            </ul>
+                        </div>
+                        <!-- <div class="references__content bd-grid">
+                            <span class="references__subtitle">Director</span>
+                            <h3 class="references__title">doe</h3>
+                            <ul class="references__contact">
+                                <li>Phone: 36546549846</li>
+                                <li>Email: @gmail.com</li>
+
+                            </ul>
+                        </div> -->
+                    </div>
+                </section>
+
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section">
+                    <h2 class="section-title">languages</h2>
+
+                    <div class="languages__container">
+                        <ul class="languages__content" bd-grid>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>English
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Hindi
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Haryanvi
+                            </li>
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Punjabi
+                            </li>
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Bhojpuri
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!--========== INTERESTS ==========-->
+                <section class="interests section">
+                    <h2 class="section-title">INTERESTS</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class="bx bx-headphone"></i>
+                            <span class="interests__name">Music</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bxs-plane-alt'></i>
+                            <span class="interests__name">Travel</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bxs-book-alt'></i>
+                            <span class="interests__name">Read</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bx-dumbbell'></i>
+                            <span class="interests__name">Gym</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
