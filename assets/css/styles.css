@@ -371,7 +371,7 @@ font-weight: var(--font-medium);
 
 }
 .home__button-movil{
-  display: inline-block;
+  display: none;
   border: 2px solid var(--text-color);
   color: var(--text-color);
   padding: .5rem 1rem;
@@ -379,6 +379,7 @@ font-weight: var(--font-medium);
   transition: .3s;
   font-weight: var(--font-medium);
   margin-top: var(--mb-1);
+  
 
 
 }
